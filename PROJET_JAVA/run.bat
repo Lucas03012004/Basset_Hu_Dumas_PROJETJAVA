@@ -21,7 +21,7 @@ set "JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8"
 
 :: Étape 3 : Exécuter le programme Java
 echo Lancement de l'application...
-java -cp out com.example.armyapp.ArmyManagerGUI
+java -cp out com.example.armyapp.Main
 
 :: Garder la fenêtre ouverte après exécution
 pause
